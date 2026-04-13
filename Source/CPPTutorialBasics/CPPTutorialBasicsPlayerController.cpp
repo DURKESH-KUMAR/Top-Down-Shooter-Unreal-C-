@@ -14,13 +14,7 @@
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
-ACPPTutorialBasicsPlayerController::ACPPTutorialBasicsPlayerController()
-{
-	bShowMouseCursor = true;
-	DefaultMouseCursor = EMouseCursor::Default;
-	CachedDestination = FVector::ZeroVector;
-	FollowTime = 0.f;
-}
+
 
 void ACPPTutorialBasicsPlayerController::BeginPlay()
 {
@@ -42,17 +36,8 @@ void ACPPTutorialBasicsPlayerController::SetupInputComponent()
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(InputComponent))
 	{
-		// // Setup mouse input events
-		// EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Started, this, &ACPPTutorialBasicsPlayerController::OnInputStarted);
-		// EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Triggered, this, &ACPPTutorialBasicsPlayerController::OnSetDestinationTriggered);
-		// EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Completed, this, &ACPPTutorialBasicsPlayerController::OnSetDestinationReleased);
-		// EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Canceled, this, &ACPPTutorialBasicsPlayerController::OnSetDestinationReleased);
-
-		// // Setup touch input events
-		// EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Started, this, &ACPPTutorialBasicsPlayerController::OnInputStarted);
-		// EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Triggered, this, &ACPPTutorialBasicsPlayerController::OnTouchTriggered);
-		// EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Completed, this, &ACPPTutorialBasicsPlayerController::OnTouchReleased);
-		// EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Canceled, this, &ACPPTutorialBasicsPlayerController::OnTouchReleased);
+		EnhancedInputComponent->BindAction(MovementInput, ETriggerEvent::Ongoing, this, &ACPPTutorialBasicsPlayerController::Move);
+		
 	}
 	else
 	{
@@ -60,75 +45,13 @@ void ACPPTutorialBasicsPlayerController::SetupInputComponent()
 	}
 }
 
-void ACPPTutorialBasicsPlayerController::OnInputStarted()
-{
-	StopMovement();
-}
-
 // Triggered every frame when the input is held down
-void ACPPTutorialBasicsPlayerController::OnSetDestinationTriggered()
-{
-	// We flag that the input is being pressed
-	FollowTime += GetWorld()->GetDeltaSeconds();
-	
-	// We look for the location in the world where the player has pressed the input
-	FHitResult Hit;
-	bool bHitSuccessful = false;
-	if (bIsTouch)
-	{
-		bHitSuccessful = GetHitResultUnderFinger(ETouchIndex::Touch1, ECollisionChannel::ECC_Visibility, true, Hit);
-	}
-	else
-	{
-		bHitSuccessful = GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, true, Hit);
-	}
 
-	// If we hit a surface, cache the location
-	if (bHitSuccessful)
-	{
-		CachedDestination = Hit.Location;
-	}
-	
-	// Move towards mouse pointer or touch
-	APawn* ControlledPawn = GetPawn();
-	if (ControlledPawn != nullptr)
-	{
-		FVector WorldDirection = (CachedDestination - ControlledPawn->GetActorLocation()).GetSafeNormal();
-		ControlledPawn->AddMovementInput(WorldDirection, 1.0, false);
-	}
+void ACPPTutorialBasicsPlayerController::Move(const FInputActionValue& Value)
+{
+	FVector2D MovementVector=Value.Get<FVector2d>();
+	FVector InputVector=FVector(MovementVector,0);
+	GetPawn()->AddMovementInput(InputVector,speed,false);
 }
 
-void ACPPTutorialBasicsPlayerController::OnSetDestinationReleased()
-{
-	// If it was a short press
-	if (FollowTime <= ShortPressThreshold)
-	{
-		// We move there and spawn some particles
-		UAIBlueprintHelperLibrary::SimpleMoveToLocation(this, CachedDestination);
-		UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, FXCursor, CachedDestination, FRotator::ZeroRotator, FVector(1.f, 1.f, 1.f), true, true, ENCPoolMethod::None, true);
-	}
 
-	FollowTime = 0.f;
-}
-
-// Triggered every frame when the input is held down
-void ACPPTutorialBasicsPlayerController::OnTouchTriggered()
-{
-	bIsTouch = true;
-	OnSetDestinationTriggered();
-}
-
-// void ACPPTutorialBasicsPlayerController::Move(FInputActionValue &Value)
-// {
-// 	FVector2D MovementVector=Value.Get<FVector2d>();
-// 	FVector InputVector=FVector(MovementVector,0);
-// 	GetPawn()->AddMovementInput(InputVector,speed,false);
-// }
-
-
-
-void ACPPTutorialBasicsPlayerController::OnTouchReleased()
-{
-	bIsTouch = false;
-	OnSetDestinationReleased();
-}
