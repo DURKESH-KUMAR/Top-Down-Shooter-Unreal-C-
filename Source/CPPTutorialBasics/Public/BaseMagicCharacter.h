@@ -14,6 +14,10 @@ class CPPTUTORIALBASICS_API ABaseMagicCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ABaseMagicCharacter();
+	FORCEINLINE class UCameraComponent* GetTopDownCameraComponent() const { return TopDownCameraComponent; }
+
+	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -22,6 +26,13 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	UChildActorComponent* Weapon;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class UCameraComponent* TopDownCameraComponent;
+
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class USpringArmComponent* CameraBoom;
 
 public:	
 	// Called every frame
