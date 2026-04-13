@@ -10,7 +10,7 @@
         "Win64",
         "Development",
 		
-        "D:/unreal projects/CPPTutorialBasics/CPPTutorialBasics.uproject",
+        "D:/unreal projects/CPPTutorialBasics/Top-Down-Shooter-Unreal-C++/CPPTutorialBasics.uproject",
         "-waitmutex"
       ],
       "group": {

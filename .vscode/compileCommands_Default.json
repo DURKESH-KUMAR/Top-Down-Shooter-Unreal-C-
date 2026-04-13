@@ -1,601 +1,633 @@
 [
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedExternalUILibrary.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedExternalUILibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedFriendsGameInstance.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedFriendsGameInstance.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedFriendsInterface.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedFriendsInterface.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedFriendsLibrary.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedFriendsLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedGameSession.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedGameSession.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedIdentityLibrary.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedIdentityLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedSessions.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedSessions.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedSessionsLibrary.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedSessionsLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedVoiceLibrary.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AdvancedVoiceLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AutoLoginUserCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\AutoLoginUserCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\BlueprintDataDefinitions.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\BlueprintDataDefinitions.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\CancelFindSessionsCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\CancelFindSessionsCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\CreateSessionCallbackProxyAdvanced.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\CreateSessionCallbackProxyAdvanced.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\EndSessionCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\EndSessionCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\FindFriendSessionCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\FindFriendSessionCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\FindSessionsCallbackProxyAdvanced.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\FindSessionsCallbackProxyAdvanced.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\GetFriendsCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\GetFriendsCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\GetRecentPlayersCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\GetRecentPlayersCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\GetUserPrivilegeCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\GetUserPrivilegeCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\LoginUserCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\LoginUserCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\LogoutUserCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\LogoutUserCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\OnlineSubSystemHeader.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\OnlineSubSystemHeader.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\SendFriendInviteCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\SendFriendInviteCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\StartSessionCallbackProxyAdvanced.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\StartSessionCallbackProxyAdvanced.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\UpdateSessionCallbackProxyAdvanced.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Classes\\UpdateSessionCallbackProxyAdvanced.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedExternalUILibrary.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedExternalUILibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedFriendsGameInstance.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedFriendsGameInstance.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedFriendsInterface.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedFriendsInterface.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedFriendsLibrary.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedFriendsLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedIdentityLibrary.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedIdentityLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedSessions.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedSessions.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedSessionsLibrary.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedSessionsLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedVoiceLibrary.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AdvancedVoiceLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AutoLoginUserCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\AutoLoginUserCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\CancelFindSessionsCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\CancelFindSessionsCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\CreateSessionCallbackProxyAdvanced.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\CreateSessionCallbackProxyAdvanced.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\EndSessionCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\EndSessionCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\FindFriendSessionCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\FindFriendSessionCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\FindSessionsCallbackProxyAdvanced.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\FindSessionsCallbackProxyAdvanced.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\GetFriendsCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\GetFriendsCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\GetRecentPlayersCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\GetRecentPlayersCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\GetUserPrivilegeCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\GetUserPrivilegeCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\LoginUserCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\LoginUserCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\LogoutUserCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\LogoutUserCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\SendFriendInviteCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\SendFriendInviteCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\StartSessionCallbackProxyAdvanced.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\StartSessionCallbackProxyAdvanced.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\UpdateSessionCallbackProxyAdvanced.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\Private\\UpdateSessionCallbackProxyAdvanced.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSessions.29.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\AdvancedSteamSessions.Build.cs",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\AdvancedSteamSessions.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\AdvancedSteamFriendsLibrary.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\AdvancedSteamFriendsLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\AdvancedSteamSessions.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\AdvancedSteamSessions.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\AdvancedSteamWorkshopLibrary.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\AdvancedSteamWorkshopLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\SteamNotificationsSubsystem.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\SteamNotificationsSubsystem.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\SteamRequestGroupOfficersCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\SteamRequestGroupOfficersCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\SteamWSRequestUGCDetailsCallbackProxy.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Classes\\SteamWSRequestUGCDetailsCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Private\\AdvancedSteamFriendsLibrary.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Private\\AdvancedSteamFriendsLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Private\\AdvancedSteamSessions.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Private\\AdvancedSteamSessions.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Private\\AdvancedSteamWorkshopLibrary.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Private\\AdvancedSteamWorkshopLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Private\\SteamRequestGroupOfficersCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Private\\SteamRequestGroupOfficersCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Private\\SteamWSRequestUGCDetailsCallbackProxy.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\Private\\SteamWSRequestUGCDetailsCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\AdvancedSteamSessions.37.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\CPPTutorialBasics.Build.cs",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\CPPTutorialBasics.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\CPPTutorialBasics.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\CPPTutorialBasics.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\CPPTutorialBasics.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\CPPTutorialBasics.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\CPPTutorialBasicsCharacter.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\CPPTutorialBasicsCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\CPPTutorialBasicsCharacter.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\CPPTutorialBasicsCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\CPPTutorialBasicsGameMode.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\CPPTutorialBasicsGameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\CPPTutorialBasicsGameMode.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\CPPTutorialBasicsGameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\CPPTutorialBasicsPlayerController.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\CPPTutorialBasicsPlayerController.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\CPPTutorialBasicsPlayerController.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\CPPTutorialBasicsPlayerController.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\Private\\BaseBullet.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BaseBullet.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\Private\\BaseMagicCharacter.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BaseEnemyCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\Private\\BaseWeapon.cpp",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BaseMagicCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\Public\\BaseBullet.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BasePlayerCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\Public\\BaseMagicCharacter.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BaseWeapon.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "D:\\unreal projects\\CPPTutorialBasics\\Source\\CPPTutorialBasics\\Public\\BaseWeapon.h",
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Public\\BaseBullet.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Public\\BaseEnemyCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Public\\BaseMagicCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Public\\BasePlayerCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Public\\BaseWeapon.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
 		],
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	}

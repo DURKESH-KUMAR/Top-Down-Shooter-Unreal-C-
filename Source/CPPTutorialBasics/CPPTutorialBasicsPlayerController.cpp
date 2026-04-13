@@ -118,12 +118,12 @@ void ACPPTutorialBasicsPlayerController::OnTouchTriggered()
 	OnSetDestinationTriggered();
 }
 
-void ACPPTutorialBasicsPlayerController::Move(FInputActionValue &Value)
-{
-	FVector2D MovementVector=Value.Get<FVector2d>();
-	FVector InputVector=FVector(MovementVector,0);
-	GetPawn()->AddMovementInput(InputVector,speed,false);
-}
+// void ACPPTutorialBasicsPlayerController::Move(FInputActionValue &Value)
+// {
+// 	FVector2D MovementVector=Value.Get<FVector2d>();
+// 	FVector InputVector=FVector(MovementVector,0);
+// 	GetPawn()->AddMovementInput(InputVector,speed,false);
+// }
 
 
 

@@ -6,7 +6,7 @@
 			"cStandard": "c17",
 			"cppStandard": "c++20",
 			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_CPPTutorialBasics.json"
+			"compileCommands": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_CPPTutorialBasics.json"
 		},
 		{
 			"name": "Win32",
@@ -14,7 +14,7 @@
 			"cStandard": "c17",
 			"cppStandard": "c++20",
 			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "D:\\unreal projects\\CPPTutorialBasics\\.vscode\\compileCommands_Default.json"
+			"compileCommands": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default.json"
 		}
 	]
 }

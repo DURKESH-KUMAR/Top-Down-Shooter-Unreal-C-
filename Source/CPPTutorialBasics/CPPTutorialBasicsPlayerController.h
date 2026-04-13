@@ -61,7 +61,7 @@ protected:
 	UPROPERTY(EditAnywhere)
 	float speed;
 
-	void Move(FInputActionValue& Value);
+	// void Move(FInputActionValue& Value);
 
 private:
 	FVector CachedDestination;
