@@ -5,6 +5,7 @@
 #include "InputActionValue.h"
 #include "GameFramework/Pawn.h"
 #include "Engine/LocalPlayer.h"
+#include "BaseMagicCharacter.h"
 
 ACPPTutorialBasicsPlayerController::ACPPTutorialBasicsPlayerController()
 {
@@ -13,6 +14,7 @@ ACPPTutorialBasicsPlayerController::ACPPTutorialBasicsPlayerController()
 void ACPPTutorialBasicsPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
+	PlayerCharacter=Cast<ABaseMagicCharacter>(GetPawn());
 
 	UE_LOG(LogTemp, Warning, TEXT("PlayerController BeginPlay"));
 
@@ -42,23 +44,22 @@ void ACPPTutorialBasicsPlayerController::SetupInputComponent()
 
 	UE_LOG(LogTemp, Warning, TEXT("SetupInputComponent Called"));
 
-	if (UEnhancedInputComponent* EIC = Cast<UEnhancedInputComponent>(InputComponent))
+	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(InputComponent))
 	{
-		if (MovementInput)
-		{
-			EIC->BindAction(
-				MovementInput,
-				ETriggerEvent::Triggered, // ✅ FIXED
-				this,
-				&ACPPTutorialBasicsPlayerController::Move
-			);
+		EnhancedInputComponent->BindAction(
+    		MovementInput,
+    		ETriggerEvent::Triggered,
+    		this,
+    		&ACPPTutorialBasicsPlayerController::Move
+		);
 
-			UE_LOG(LogTemp, Warning, TEXT("Movement Input Bound"));
-		}
-		else
-		{
-			UE_LOG(LogTemp, Error, TEXT("MovementInput is NULL"));
-		}
+		EnhancedInputComponent->BindAction(
+    		FireInput,
+    		ETriggerEvent::Triggered,
+    		this,
+    		&ACPPTutorialBasicsPlayerController::FireBullet
+		);
+		
 	}
 	else
 	{
@@ -89,5 +90,12 @@ void ACPPTutorialBasicsPlayerController::Move(const FInputActionValue& Value)
 	else
 	{
 		UE_LOG(LogTemp, Error, TEXT("Pawn is NULL"));
+	}
+}
+
+void ACPPTutorialBasicsPlayerController::FireBullet(const FInputActionValue& Value)
+{
+	if(PlayerCharacter){
+		PlayerCharacter->ShootBullet();
 	}
 }

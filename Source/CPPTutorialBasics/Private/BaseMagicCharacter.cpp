@@ -3,6 +3,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "BaseWeapon.h"
+#include "BaseBullet.h"
 // Sets default values
 ABaseMagicCharacter::ABaseMagicCharacter()
 {
@@ -23,6 +24,8 @@ ABaseMagicCharacter::ABaseMagicCharacter()
 	TopDownCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("TopDownCamera"));
 	TopDownCameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	TopDownCameraComponent->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
+
+	SpawnLocation=CreateDefaultSubobject<USceneComponent>(TEXT("Bullet Spawn Point"));
 
 }
 // Called when the game starts or when spawned
@@ -49,8 +52,16 @@ void ABaseMagicCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInput
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
-void ABaseMagicCharacter::Shoot()
+
+AActor* ABaseMagicCharacter::ShootBullet()
 {
-	
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.Instigator=this;
+	ABaseBullet* SpawnedActor = GetWorld()->SpawnActor<ABaseBullet>(
+		BulletToSpawn,
+		SpawnLocation->GetComponentLocation(),
+		GetActorRotation(),
+		SpawnParams);
+	return SpawnedActor;
 }
 

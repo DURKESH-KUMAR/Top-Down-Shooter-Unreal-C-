@@ -27,7 +27,14 @@ protected:
 	// Movement Action
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
 	UInputAction* MovementInput;
+	// Fire Input
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
+	UInputAction* FireInput;
 
 	// Movement Function
 	void Move(const FInputActionValue& Value);
+
+	void FireBullet(const FInputActionValue& Value);
+
+	class ABaseMagicCharacter* PlayerCharacter;
 };

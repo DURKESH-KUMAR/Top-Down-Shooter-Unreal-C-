@@ -1,11 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "BaseMagicCharacter.generated.h"
 
+class ABaseBullet;
 UCLASS()
 class CPPTUTORIALBASICS_API ABaseMagicCharacter : public ACharacter
 {
@@ -22,7 +21,6 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	void Shoot();
 
 	UPROPERTY(EditAnywhere)
 	UChildActorComponent* Weapon;
@@ -34,16 +32,22 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
-	class ABaseWeapon* weaponponter2;
+	UPROPERTY(EditDefaultsOnly)
+	USceneComponent* SpawnLocation;
 
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<ABaseBullet> BulletToSpawn;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	AActor* ShootBullet();
 
 };
+
+
 
 
 
