@@ -37,4 +37,17 @@ protected:
 	void FireBullet(const FInputActionValue& Value);
 
 	class ABaseMagicCharacter* PlayerCharacter;
+
+	bool CanFire=true;
+	UPROPERTY(EditAnywhere)
+	float TimeBetweenFires=0.2f;
+	void SetCanFire(bool Value);
+
+	FRotator ShootRot;
+	FRotator MovementRot;
+
+	bool IsShooting;
+	void SetShootingTrue();
+	void SetShootingFalse();
+	virtual void Tick(float DeltaTime)override;
 };

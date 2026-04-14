@@ -59,6 +59,18 @@ void ACPPTutorialBasicsPlayerController::SetupInputComponent()
     		this,
     		&ACPPTutorialBasicsPlayerController::FireBullet
 		);
+		EnhancedInputComponent->BindAction(
+    		FireInput,
+    		ETriggerEvent::Started,
+    		this,
+    		&ACPPTutorialBasicsPlayerController::SetShootingTrue
+		);
+		EnhancedInputComponent->BindAction(
+    		FireInput,
+    		ETriggerEvent::Completed,
+    		this,
+    		&ACPPTutorialBasicsPlayerController::SetShootingFalse
+		);
 		
 	}
 	else
@@ -72,7 +84,7 @@ void ACPPTutorialBasicsPlayerController::Move(const FInputActionValue& Value)
 	UE_LOG(LogTemp, Warning, TEXT("Move Called"));
 
 	FVector2D MovementVector = Value.Get<FVector2D>();
-
+    MovementRot = FVector(MovementVector, 0.f).Rotation();
 	if (APawn* ControlledPawn = GetPawn())
 	{
 		// Get camera rotation
@@ -84,6 +96,7 @@ void ACPPTutorialBasicsPlayerController::Move(const FInputActionValue& Value)
 		FVector Right = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
 		// Apply movement
+		
 		ControlledPawn->AddMovementInput(Forward, MovementVector.Y);
 		ControlledPawn->AddMovementInput(Right, MovementVector.X);
 	}
@@ -95,7 +108,51 @@ void ACPPTutorialBasicsPlayerController::Move(const FInputActionValue& Value)
 
 void ACPPTutorialBasicsPlayerController::FireBullet(const FInputActionValue& Value)
 {
-	if(PlayerCharacter){
-		PlayerCharacter->ShootBullet();
+	if(PlayerCharacter)
+	{
+		FVector direction=FVector(Value.Get<FVector2D>(),0);
+		ShootRot=direction.Rotation();
+		if(CanFire)
+		{
+			PlayerCharacter->ShootBullet();
+			CanFire=false;
+
+			FTimerDelegate Delegate=FTimerDelegate::CreateUObject(this, 
+			&ACPPTutorialBasicsPlayerController::SetCanFire,
+			true);
+			FTimerHandle TimerHandle;
+			GetWorld()->GetTimerManager().SetTimer(TimerHandle,Delegate,TimeBetweenFires,false);
+		}
+		PlayerCharacter->SetActorRotation(direction.Rotation());
+		
 	}
 }
+
+void ACPPTutorialBasicsPlayerController::SetCanFire(bool Value)
+{
+	CanFire=true;
+}
+
+void ACPPTutorialBasicsPlayerController::Tick(float DeltaTime)
+{
+	if(IsShooting){
+		PlayerCharacter->SetActorRotation(ShootRot);
+	}
+	else{
+		PlayerCharacter->SetActorRotation(MovementRot);
+	}
+	PlayerCharacter->SetActorRotation(ShootRot);
+}
+
+
+void ACPPTutorialBasicsPlayerController::SetShootingTrue()
+{
+	IsShooting=true;
+}
+
+void ACPPTutorialBasicsPlayerController::SetShootingFalse()
+{
+	IsShooting=false;
+}
+
+

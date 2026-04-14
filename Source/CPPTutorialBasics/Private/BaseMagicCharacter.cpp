@@ -26,6 +26,7 @@ ABaseMagicCharacter::ABaseMagicCharacter()
 	TopDownCameraComponent->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
 	SpawnLocation=CreateDefaultSubobject<USceneComponent>(TEXT("Bullet Spawn Point"));
+	SpawnLocation->SetupAttachment(GetMesh());
 
 }
 // Called when the game starts or when spawned
