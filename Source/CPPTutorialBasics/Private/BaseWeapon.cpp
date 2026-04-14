@@ -1,8 +1,5 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "BaseWeapon.h"
-
+#include "Kismet/GameplayStatics.h"
 // Sets default values
 ABaseWeapon::ABaseWeapon()
 {
@@ -11,7 +8,6 @@ ABaseWeapon::ABaseWeapon()
 	PrimaryActorTick.bCanEverTick = true;
 
 }
-
 // Called when the game starts or when spawned
 void ABaseWeapon::BeginPlay()
 {
@@ -19,8 +15,10 @@ void ABaseWeapon::BeginPlay()
 	
 }
 
-
-
+void ABaseWeapon::SetPlayerPointer(ACharacter* PlayerPtr)
+{
+	Player=PlayerPtr;
+}
 // Called every frame
 void ABaseWeapon::Tick(float DeltaTime)
 {

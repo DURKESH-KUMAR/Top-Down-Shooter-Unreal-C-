@@ -2,6 +2,7 @@
 #include "BaseMagicCharacter.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "BaseWeapon.h"
 // Sets default values
 ABaseMagicCharacter::ABaseMagicCharacter()
 {
@@ -28,6 +29,10 @@ ABaseMagicCharacter::ABaseMagicCharacter()
 void ABaseMagicCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	ABaseWeapon* WeaponPtr=Cast<ABaseWeapon>(Weapon->GetChildActor());
+	if(WeaponPtr){
+		WeaponPtr->SetPlayerPointer(this);
+	}
 	
 }
 

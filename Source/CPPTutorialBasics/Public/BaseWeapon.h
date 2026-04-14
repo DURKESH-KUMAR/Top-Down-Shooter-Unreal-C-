@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -14,6 +12,7 @@ class CPPTUTORIALBASICS_API ABaseWeapon : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ABaseWeapon();
+	void SetPlayerPointer(ACharacter* PlayerPtr);
 
 protected:
 	virtual void BeginPlay() override;
@@ -29,6 +28,9 @@ protected:
 
 	UFUNCTION(BlueprintPure)
 	float CalculateDamage(float Damages,float Multiplier);
+
+	ACharacter* Player;
+	
 
 public:	
 	// Called every frame

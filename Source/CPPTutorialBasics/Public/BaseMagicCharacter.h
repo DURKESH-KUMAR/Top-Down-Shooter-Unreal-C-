@@ -34,6 +34,8 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
+	class ABaseWeapon* weaponponter2;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
