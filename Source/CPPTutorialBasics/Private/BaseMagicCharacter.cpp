@@ -1,10 +1,12 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 #include "BaseMagicCharacter.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "BaseWeapon.h"
 #include "BaseBullet.h"
-// Sets default values
+#include "Components/ChildActorComponent.h"
+#include "Components/SceneComponent.h"
+#include "TimerManager.h"
+
 ABaseMagicCharacter::ABaseMagicCharacter()
 {
 	Weapon=CreateDefaultSubobject<UChildActorComponent>(TEXT("Weapon"));
@@ -12,57 +14,113 @@ ABaseMagicCharacter::ABaseMagicCharacter()
  	
 	PrimaryActorTick.bCanEverTick = true;
 
-	// Create a camera boom...
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->SetUsingAbsoluteRotation(true); // Don't want arm to rotate when character does
+	CameraBoom->SetUsingAbsoluteRotation(true);
 	CameraBoom->TargetArmLength = 800.f;
 	CameraBoom->SetRelativeRotation(FRotator(-60.f, 0.f, 0.f));
-	CameraBoom->bDoCollisionTest = false; // Don't want to pull camera in when it collides with level
+	CameraBoom->bDoCollisionTest = false;
 
-	// Create a camera...
 	TopDownCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("TopDownCamera"));
 	TopDownCameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
-	TopDownCameraComponent->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
+	TopDownCameraComponent->bUsePawnControlRotation = false;
 
 	SpawnLocation=CreateDefaultSubobject<USceneComponent>(TEXT("Bullet Spawn Point"));
 	SpawnLocation->SetupAttachment(GetMesh());
-
 }
-// Called when the game starts or when spawned
+
 void ABaseMagicCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
 	ABaseWeapon* WeaponPtr=Cast<ABaseWeapon>(Weapon->GetChildActor());
 	if(WeaponPtr){
 		WeaponPtr->SetPlayerPointer(this);
 	}
-	
 }
 
-// Called every frame
 void ABaseMagicCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if(IsShooting){
+		SetActorRotation(ShootRot);
+	}else{
+		SetActorRotation(MovementRot);
+	}
 }
 
-// Called to bind functionality to input
 void ABaseMagicCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
 }
 
-AActor* ABaseMagicCharacter::ShootBullet()
+AActor* ABaseMagicCharacter::ShootBullet(FVector direction)
 {
+	ShootRot = direction.Rotation();
+
+	if(CanFire)
+	{
+		CanFire=false;
+
+		FTimerHandle TimerHandle;
+
+		GetWorld()->GetTimerManager().SetTimer(
+			TimerHandle,
+			this,
+			&ABaseMagicCharacter::ResetCanFire,
+			TimeBetweenFires,
+			false
+		);
+	}
+
+	SetActorRotation(direction.Rotation());
+		
 	FActorSpawnParameters SpawnParams;
 	SpawnParams.Instigator=this;
+
 	ABaseBullet* SpawnedActor = GetWorld()->SpawnActor<ABaseBullet>(
 		BulletToSpawn,
 		SpawnLocation->GetComponentLocation(),
 		GetActorRotation(),
 		SpawnParams);
+
 	return SpawnedActor;
 }
 
+void ABaseMagicCharacter::ResetCanFire()
+{
+	CanFire = true;
+}
+
+void ABaseMagicCharacter::SetShootingTrue()
+{
+	IsShooting = true;
+}
+
+void ABaseMagicCharacter::SetShootingFalse()
+{
+	IsShooting = false;
+}
+
+FVector ABaseMagicCharacter::CalculateMovementBlending()
+{
+	FVector movement=MovementRot.Vector();
+	FVector Shooting=ShootRot.Vector();
+	float DotProd=FVector::DotProduct(movement,Shooting);
+	FVector BlendVector=movement-Shooting*DotProd;
+	FVector OutputVector=FVector(DotProd,BlendVector.Length(),0);
+	return OutputVector*100;
+}
+
+float ABaseMagicCharacter::TakeDamage(float DamageAmount,
+		struct FDamageEvent const & DamageEvent,
+		AController* EventInstigator,
+		AActor* DamageCauser)
+{
+	HP-=DamageAmount;
+	if(HP<=0){
+		Destroy();
+	}
+	return DamageAmount;
+}

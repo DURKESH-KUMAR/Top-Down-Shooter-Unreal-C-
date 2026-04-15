@@ -1,5 +1,4 @@
 #include "CPPTutorialBasicsPlayerController.h"
-
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
@@ -14,27 +13,16 @@ ACPPTutorialBasicsPlayerController::ACPPTutorialBasicsPlayerController()
 void ACPPTutorialBasicsPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
-	PlayerCharacter=Cast<ABaseMagicCharacter>(GetPawn());
 
-	UE_LOG(LogTemp, Warning, TEXT("PlayerController BeginPlay"));
+	PlayerCharacter = Cast<ABaseMagicCharacter>(GetPawn());
 
-	// Add Mapping Context
 	if (UEnhancedInputLocalPlayerSubsystem* Subsystem =
 		ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer()))
 	{
 		if (DefaultMappingContext)
 		{
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
-			UE_LOG(LogTemp, Warning, TEXT("Mapping Context Added"));
 		}
-		else
-		{
-			UE_LOG(LogTemp, Error, TEXT("DefaultMappingContext is NULL"));
-		}
-	}
-	else
-	{
-		UE_LOG(LogTemp, Error, TEXT("EnhancedInput Subsystem NOT found"));
 	}
 }
 
@@ -42,117 +30,70 @@ void ACPPTutorialBasicsPlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 
-	UE_LOG(LogTemp, Warning, TEXT("SetupInputComponent Called"));
-
 	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(InputComponent))
 	{
-		EnhancedInputComponent->BindAction(
-    		MovementInput,
-    		ETriggerEvent::Triggered,
-    		this,
-    		&ACPPTutorialBasicsPlayerController::Move
-		);
+		EnhancedInputComponent->BindAction(MovementInput, ETriggerEvent::Triggered, this, &ACPPTutorialBasicsPlayerController::Move);
 
-		EnhancedInputComponent->BindAction(
-    		FireInput,
-    		ETriggerEvent::Triggered,
-    		this,
-    		&ACPPTutorialBasicsPlayerController::FireBullet
-		);
-		EnhancedInputComponent->BindAction(
-    		FireInput,
-    		ETriggerEvent::Started,
-    		this,
-    		&ACPPTutorialBasicsPlayerController::SetShootingTrue
-		);
-		EnhancedInputComponent->BindAction(
-    		FireInput,
-    		ETriggerEvent::Completed,
-    		this,
-    		&ACPPTutorialBasicsPlayerController::SetShootingFalse
-		);
-		
-	}
-	else
-	{
-		UE_LOG(LogTemp, Error, TEXT("EnhancedInputComponent NOT found"));
+		EnhancedInputComponent->BindAction(FireInput, ETriggerEvent::Triggered, this, &ACPPTutorialBasicsPlayerController::FireBullet);
+
+		EnhancedInputComponent->BindAction(FireInput, ETriggerEvent::Started, this, &ACPPTutorialBasicsPlayerController::SetShootingTrue);
+
+		EnhancedInputComponent->BindAction(FireInput, ETriggerEvent::Completed, this, &ACPPTutorialBasicsPlayerController::SetShootingFalse);
 	}
 }
 
 void ACPPTutorialBasicsPlayerController::Move(const FInputActionValue& Value)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Move Called"));
-
 	FVector2D MovementVector = Value.Get<FVector2D>();
-    MovementRot = FVector(MovementVector, 0.f).Rotation();
-	if (APawn* ControlledPawn = GetPawn())
-	{
-		// Get camera rotation
-		FRotator Rotation = GetControlRotation();
-		FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+	FVector InputVector = FVector(MovementVector, 0);
 
-		// Directions
-		FVector Forward = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		FVector Right = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+	APawn* ControlledPawn = GetPawn();
 
-		// Apply movement
-		
-		ControlledPawn->AddMovementInput(Forward, MovementVector.Y);
-		ControlledPawn->AddMovementInput(Right, MovementVector.X);
-	}
-	else
+	if (ControlledPawn)
 	{
-		UE_LOG(LogTemp, Error, TEXT("Pawn is NULL"));
+		// ✅ FIX: normalized input (THIS was the main issue)
+		ControlledPawn->AddMovementInput(InputVector.GetSafeNormal(), 1.0f);
+
+		// rotation only if moving
+		if (!InputVector.IsNearlyZero())
+		{
+			ControlledPawn->SetActorRotation(InputVector.Rotation());
+		}
 	}
 }
 
 void ACPPTutorialBasicsPlayerController::FireBullet(const FInputActionValue& Value)
 {
-	if(PlayerCharacter)
-	{
-		FVector direction=FVector(Value.Get<FVector2D>(),0);
-		ShootRot=direction.Rotation();
-		if(CanFire)
-		{
-			PlayerCharacter->ShootBullet();
-			CanFire=false;
+	FVector direction = FVector(Value.Get<FVector2D>(), 0);
 
-			FTimerDelegate Delegate=FTimerDelegate::CreateUObject(this, 
-			&ACPPTutorialBasicsPlayerController::SetCanFire,
-			true);
-			FTimerHandle TimerHandle;
-			GetWorld()->GetTimerManager().SetTimer(TimerHandle,Delegate,TimeBetweenFires,false);
-		}
-		PlayerCharacter->SetActorRotation(direction.Rotation());
-		
+	if (PlayerCharacter)
+	{
+		PlayerCharacter->ShootBullet(direction);
 	}
 }
 
 void ACPPTutorialBasicsPlayerController::SetCanFire(bool Value)
 {
-	CanFire=true;
+	CanFire = true;
 }
 
 void ACPPTutorialBasicsPlayerController::Tick(float DeltaTime)
 {
-	if(IsShooting){
-		PlayerCharacter->SetActorRotation(ShootRot);
-	}
-	else{
-		PlayerCharacter->SetActorRotation(MovementRot);
-	}
-	PlayerCharacter->SetActorRotation(ShootRot);
+	Super::Tick(DeltaTime);
 }
-
 
 void ACPPTutorialBasicsPlayerController::SetShootingTrue()
 {
-	IsShooting=true;
+	if (PlayerCharacter)
+	{
+		PlayerCharacter->SetShootingTrue();
+	}
 }
 
 void ACPPTutorialBasicsPlayerController::SetShootingFalse()
 {
-	IsShooting=false;
+	if (PlayerCharacter)
+	{
+		PlayerCharacter->SetShootingFalse();
+	}
 }
-
-

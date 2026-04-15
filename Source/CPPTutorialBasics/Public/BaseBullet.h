@@ -34,6 +34,10 @@ protected:
     UPROPERTY(EditDefaultsOnly)
     class UNiagaraSystem* ImpactParticles;
 
+    UPROPERTY(EditDefaultsOnly)
+    float BaseDamage;
+    UPROPERTY(EditDefaultsOnly)
+    TSubclassOf<UDamageType> DamageType;
 
 public: 
     // Called every frame

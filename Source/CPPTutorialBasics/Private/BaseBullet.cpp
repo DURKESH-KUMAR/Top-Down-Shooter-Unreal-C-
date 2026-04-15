@@ -4,7 +4,7 @@
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "NiagaraSystem.h"
 #include "NiagaraFunctionLibrary.h"
-
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ABaseBullet::ABaseBullet()
@@ -43,6 +43,8 @@ void ABaseBullet::BeginOverlap(UPrimitiveComponent* OverlappedComponent,
 {
     UNiagaraFunctionLibrary::SpawnSystemAtLocation(this,ImpactParticles,GetActorLocation());
     BulletHit();
+    AController* PlayerC=GetInstigator()->GetController();
+    UGameplayStatics::ApplyDamage(OtherActor,BaseDamage,PlayerC,this,DamageType);
     Destroy();
 }
 

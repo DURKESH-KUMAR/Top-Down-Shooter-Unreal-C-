@@ -16,38 +16,39 @@ class ACPPTutorialBasicsPlayerController : public APlayerController
 public:
 	ACPPTutorialBasicsPlayerController();
 
+	void SetShootingTrue();
+	void SetShootingFalse();
+
 protected:
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
 
-	// Input Mapping
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
 	UInputMappingContext* DefaultMappingContext;
 
-	// Movement Action
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
 	UInputAction* MovementInput;
-	// Fire Input
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
 	UInputAction* FireInput;
 
-	// Movement Function
 	void Move(const FInputActionValue& Value);
-
 	void FireBullet(const FInputActionValue& Value);
 
 	class ABaseMagicCharacter* PlayerCharacter;
 
-	bool CanFire=true;
+	bool CanFire = true;
+
 	UPROPERTY(EditAnywhere)
-	float TimeBetweenFires=0.2f;
+	float TimeBetweenFires = 0.2f;
+
 	void SetCanFire(bool Value);
 
-	FRotator ShootRot;
-	FRotator MovementRot;
+	UPROPERTY(EditDefaultsOnly)
+	float speed;
 
+	UPROPERTY(BlueprintReadOnly)
 	bool IsShooting;
-	void SetShootingTrue();
-	void SetShootingFalse();
-	virtual void Tick(float DeltaTime)override;
+
+	virtual void Tick(float DeltaTime) override;
 };
