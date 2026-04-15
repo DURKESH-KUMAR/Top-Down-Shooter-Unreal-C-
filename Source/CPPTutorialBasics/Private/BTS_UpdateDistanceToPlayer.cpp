@@ -12,7 +12,7 @@ UBTS_UpdateDistanceToPlayer::UBTS_UpdateDistanceToPlayer()
 void UBTS_UpdateDistanceToPlayer::TickNode(UBehaviorTreeComponent& OwnerComp,uint8* NodeMemory,float DeltaSeconds)
 {
     AActor* SelfActor=Cast<AActor>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(SelfActorKey.SelectedKeyName));
-    AActor* PlayerActor=Cast<AActor>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(Player.SelectedKeyName));
+    AActor* PlayerActor = Cast<AActor>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(Player.SelectedKeyName));
 
     if(SelfActor && PlayerActor)
     {

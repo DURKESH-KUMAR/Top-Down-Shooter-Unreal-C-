@@ -103,14 +103,16 @@ void ABaseMagicCharacter::SetShootingFalse()
 	IsShooting = false;
 }
 
+
 FVector ABaseMagicCharacter::CalculateMovementBlending()
 {
-	FVector movement=MovementRot.Vector();
-	FVector Shooting=ShootRot.Vector();
-	float DotProd=FVector::DotProduct(movement,Shooting);
-	FVector BlendVector=movement-Shooting*DotProd;
-	FVector OutputVector=FVector(DotProd,BlendVector.Length(),0);
-	return OutputVector*100;
+    FVector MovementDir = MovementRot.Vector().GetSafeNormal();
+    FVector ShootingDir = ShootRot.Vector().GetSafeNormal();
+
+    float Forward = FVector::DotProduct(MovementDir, ShootingDir);
+    float Side = FVector::CrossProduct(ShootingDir, MovementDir).Z;
+
+    return FVector(Forward, Side, 0);
 }
 
 float ABaseMagicCharacter::TakeDamage(float DamageAmount,
@@ -123,4 +125,9 @@ float ABaseMagicCharacter::TakeDamage(float DamageAmount,
 		Destroy();
 	}
 	return DamageAmount;
+}
+
+void ABaseMagicCharacter::SetMovementRotation(FRotator NewRotation)
+{
+	MovementRot = NewRotation;
 }

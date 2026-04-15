@@ -44,22 +44,27 @@ void ACPPTutorialBasicsPlayerController::SetupInputComponent()
 
 void ACPPTutorialBasicsPlayerController::Move(const FInputActionValue& Value)
 {
-	FVector2D MovementVector = Value.Get<FVector2D>();
-	FVector InputVector = FVector(MovementVector, 0);
+    FVector2D MovementVector = Value.Get<FVector2D>();
 
-	APawn* ControlledPawn = GetPawn();
+    APawn* ControlledPawn = GetPawn();
 
-	if (ControlledPawn)
-	{
-		// ✅ FIX: normalized input (THIS was the main issue)
-		ControlledPawn->AddMovementInput(InputVector.GetSafeNormal(), 1.0f);
+    if (ControlledPawn)
+    {
+        FVector MoveDir = FVector::ForwardVector * MovementVector.Y +
+                          FVector::RightVector * MovementVector.X;
 
-		// rotation only if moving
-		if (!InputVector.IsNearlyZero())
-		{
-			ControlledPawn->SetActorRotation(InputVector.Rotation());
-		}
-	}
+        ControlledPawn->AddMovementInput(FVector::ForwardVector, MovementVector.Y);
+        ControlledPawn->AddMovementInput(FVector::RightVector, MovementVector.X);
+
+
+        if (!MoveDir.IsNearlyZero())
+        {
+            if (PlayerCharacter)
+            {
+                PlayerCharacter->SetMovementRotation(MoveDir.Rotation());
+            }
+        }
+    }
 }
 
 void ACPPTutorialBasicsPlayerController::FireBullet(const FInputActionValue& Value)
