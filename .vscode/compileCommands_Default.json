@@ -552,6 +552,22 @@
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BTS_UpdateDistanceToPlayer.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BTT_EnemyBasicShoot.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
 		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BaseBullet.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
@@ -593,6 +609,22 @@
 	},
 	{
 		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BaseWeapon.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Public\\BTS_UpdateDistanceToPlayer.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Public\\BTT_EnemyBasicShoot.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_Default\\CPPTutorialBasics.1.rsp"
