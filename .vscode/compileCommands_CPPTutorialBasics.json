@@ -568,6 +568,14 @@
 		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BaseEnemyController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_CPPTutorialBasics\\CPPTutorialBasics.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
 		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Private\\BaseMagicCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
@@ -601,6 +609,14 @@
 	},
 	{
 		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Public\\BaseEnemyCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_CPPTutorialBasics\\CPPTutorialBasics.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\Source\\CPPTutorialBasics\\Public\\BaseEnemyController.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\unreal projects\\CPPTutorialBasics\\Top-Down-Shooter-Unreal-C++\\.vscode\\compileCommands_CPPTutorialBasics\\CPPTutorialBasics.1.rsp"
